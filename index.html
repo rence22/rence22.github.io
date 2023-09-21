@@ -4,11 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="Portfolio.css">
+    
 </head>
 <body>
-    <h1> Pleños Portfolio </h1>
-    <p><a href="Fashion%20Blog.html">Fasion Blog</a></p>
-    <p><a href="WineFestivalSchedule.html">Wine Festival Schedule</a></p>
-    <p><a href="burger/burger.html">Davies Burger</a></p>
+    <nav id="desktop-nav">
+    <div class="logo">Portfolio</div>
+        <div>
+            <ul class="nav links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Portfolio</div>
+        <div class = "hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu">Projects</a></li>
+            <li><a href="#contacts" onclick="toggleMenu">Contacts</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/Untitled_design-removebg-preview.png" alt="Lawrence profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Lawrence</h1>
+            <p class="section__text__p2">College Student</p>
+            <div id="social-container">
+                <img src="./assets/download__4_-removebg-preview.png" alt="My Fb Profile"
+                class="icon" onclick="location.href='https://www.facebook.com/rence.mirayo.7/about'">
+                <img src="./assets/th__1_-removebg-preview.png" alt="My Github Profile"
+                class="icon" onclick="location.href='https://github.com/rence22'">
+            </div>
+        </div>  
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/copy-of-lk_books_harlan-158_wide-aba40cd92c03a1d9c7674c39ae62430435456461-s1100-c50.jpg" alt="profile picture"
+                class="about-pic">
+            </div>
+            <div class="about-container">
+                <div class="about-containers">
+                    <div class="details-container">
+
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hi there! I'm Laerence M. Pleños, I'm 19 yrs old and currently living in Riverside, Calinan, Davao City, Davao del Sur.
+                        I'm currently a college student studying Bachelor Science of Information Technology. I'm currently exploring in 
+                        Web Developement and I'm eager to learn so that maybe someday i become a proffesional Web Developer. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1"></p>
+        <h1 class="text__h1">Projects</h1>
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="fashion-container">
+                    <img src="./assets/Fashion.jpg" alt="Project1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title1">Project 1</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://rence22.github.io/Fashion%20Blog.html'">
+                    Fashion Blog
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="wine-container">
+                    <img src="./assets/wine.jpg" alt="Project1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title2">Project 2</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://rence22.github.io/WineFestivalSchedule.html'">
+                    Wine Festival Schedule
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="burger-container">
+                    <img src="./assets/burger.jpg" alt="Project1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title3">Project 3</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://rence22.github.io/burger/burger.html'">
+                    Davies Burger
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
