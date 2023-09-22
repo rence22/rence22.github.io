@@ -236,7 +236,7 @@ section {
 }
 
 .experience-details-container{
-    display: flex;
+    display: flex   ;
 }
 
 .text__h1{
@@ -258,14 +258,23 @@ section {
 
 .burger-container{
     margin-top: 5rem;
-    width: 500px;
+    width: 400px;
     height: 600px;
     
 }
 
+.details-container{
+    display: contents;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
 
 
 
-
+.btn{
+    position: relative;
+    top: 350px;
+    left: -190px        ;
+}
 
 
