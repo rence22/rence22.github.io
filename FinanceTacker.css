@@ -1,0 +1,29 @@
+
+body {
+
+    background: #070515;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    
+  }
+
+  
+  .gradient{
+    width: 635px;
+    height: 744px;
+    flex-shrink: 0;
+    border-radius: 744px;
+    background: #E84040;
+    filter: blur(450px);
+
+  }
+
+  
+
+ 
+  
+
+  
