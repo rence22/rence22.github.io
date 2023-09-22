@@ -1,12 +1,6 @@
-body {
 
+body {
     background: #070515;
-    color: white;
-    text-align: center;
-    line-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    
   }
 
   
@@ -19,5 +13,20 @@ body {
     filter: blur(450px);
 
   }
+
+  .body,
+  h1{
+     color: white;
+    text-align: center;
+    line-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+  }
+
+  
+  
+
+ 
+  
 
   
