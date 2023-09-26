@@ -1,9 +1,13 @@
 
 body {
     background: #070515;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
   }
 
-  
   .gradient{
     width: 635px;
     height: 744px;
@@ -11,18 +15,21 @@ body {
     border-radius: 744px;
     background: #E84040;
     filter: blur(450px);
-
   }
 
-  .body,
-  h1{
-     color: white;
-    text-align: center;
-    line-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-  }
+.h1{
+  bottom: 50px;
+}
 
+#icon-container{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+  
   
   
 
